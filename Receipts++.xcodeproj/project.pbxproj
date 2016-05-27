@@ -14,6 +14,12 @@
 		5B3C15441CF74FDD004018FB /* Receipts__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15421CF74FDD004018FB /* Receipts__.xcdatamodeld */; };
 		5B3C15461CF74FDD004018FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3C15451CF74FDD004018FB /* Assets.xcassets */; };
 		5B3C15491CF74FDD004018FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3C15471CF74FDD004018FB /* LaunchScreen.storyboard */; };
+		5B3C15521CF7623D004018FB /* ReceiptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15511CF7623D004018FB /* ReceiptViewController.m */; };
+		5B3C155B1CF76754004018FB /* Receipt+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15541CF76754004018FB /* Receipt+CoreDataProperties.m */; };
+		5B3C155C1CF76754004018FB /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15561CF76754004018FB /* Receipt.m */; };
+		5B3C155D1CF76754004018FB /* Tag+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15581CF76754004018FB /* Tag+CoreDataProperties.m */; };
+		5B3C155E1CF76754004018FB /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C155A1CF76754004018FB /* Tag.m */; };
+		5B3C15611CF77616004018FB /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3C15601CF77616004018FB /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,18 @@
 		5B3C15451CF74FDD004018FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B3C15481CF74FDD004018FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B3C154A1CF74FDD004018FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3C15501CF7623D004018FB /* ReceiptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptViewController.h; sourceTree = "<group>"; };
+		5B3C15511CF7623D004018FB /* ReceiptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptViewController.m; sourceTree = "<group>"; };
+		5B3C15531CF76754004018FB /* Receipt+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Receipt+CoreDataProperties.h"; sourceTree = "<group>"; };
+		5B3C15541CF76754004018FB /* Receipt+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Receipt+CoreDataProperties.m"; sourceTree = "<group>"; };
+		5B3C15551CF76754004018FB /* Receipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receipt.h; sourceTree = "<group>"; };
+		5B3C15561CF76754004018FB /* Receipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receipt.m; sourceTree = "<group>"; };
+		5B3C15571CF76754004018FB /* Tag+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tag+CoreDataProperties.h"; sourceTree = "<group>"; };
+		5B3C15581CF76754004018FB /* Tag+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tag+CoreDataProperties.m"; sourceTree = "<group>"; };
+		5B3C15591CF76754004018FB /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		5B3C155A1CF76754004018FB /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
+		5B3C155F1CF77616004018FB /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		5B3C15601CF77616004018FB /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +62,14 @@
 		5B3C152A1CF74FDD004018FB = {
 			isa = PBXGroup;
 			children = (
+				5B3C15531CF76754004018FB /* Receipt+CoreDataProperties.h */,
+				5B3C15541CF76754004018FB /* Receipt+CoreDataProperties.m */,
+				5B3C15551CF76754004018FB /* Receipt.h */,
+				5B3C15561CF76754004018FB /* Receipt.m */,
+				5B3C15571CF76754004018FB /* Tag+CoreDataProperties.h */,
+				5B3C15581CF76754004018FB /* Tag+CoreDataProperties.m */,
+				5B3C15591CF76754004018FB /* Tag.h */,
+				5B3C155A1CF76754004018FB /* Tag.m */,
 				5B3C15351CF74FDD004018FB /* Receipts++ */,
 				5B3C15341CF74FDD004018FB /* Products */,
 			);
@@ -64,6 +90,10 @@
 				5B3C153A1CF74FDD004018FB /* AppDelegate.m */,
 				5B3C153C1CF74FDD004018FB /* ViewController.h */,
 				5B3C153D1CF74FDD004018FB /* ViewController.m */,
+				5B3C15501CF7623D004018FB /* ReceiptViewController.h */,
+				5B3C15511CF7623D004018FB /* ReceiptViewController.m */,
+				5B3C155F1CF77616004018FB /* TableViewCell.h */,
+				5B3C15601CF77616004018FB /* TableViewCell.m */,
 				5B3C153F1CF74FDD004018FB /* Main.storyboard */,
 				5B3C15451CF74FDD004018FB /* Assets.xcassets */,
 				5B3C15471CF74FDD004018FB /* LaunchScreen.storyboard */,
@@ -152,9 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3C155E1CF76754004018FB /* Tag.m in Sources */,
+				5B3C155B1CF76754004018FB /* Receipt+CoreDataProperties.m in Sources */,
 				5B3C15441CF74FDD004018FB /* Receipts__.xcdatamodeld in Sources */,
+				5B3C15611CF77616004018FB /* TableViewCell.m in Sources */,
+				5B3C155D1CF76754004018FB /* Tag+CoreDataProperties.m in Sources */,
 				5B3C153E1CF74FDD004018FB /* ViewController.m in Sources */,
 				5B3C153B1CF74FDD004018FB /* AppDelegate.m in Sources */,
+				5B3C15521CF7623D004018FB /* ReceiptViewController.m in Sources */,
+				5B3C155C1CF76754004018FB /* Receipt.m in Sources */,
 				5B3C15381CF74FDD004018FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
